@@ -3,7 +3,7 @@ Fake website of a Samsung service for a university project.
 
 # Project description
 
-**All the information below has been made up for the sake of the project **.
+**All the information below has been made up for the sake of the project.**
 
 The aim of this project was to collect statistics on mobility within Samsung via surveys. It turned out that the travel patterns of the company's employees were very similar. We therefore created a companion website called "Samsung Mobility", offering a car-sharing system for Samsung employees, facilitating daily commuting. This approach is also ecological and economical.
 
@@ -13,7 +13,7 @@ This site was created in teams of 4 and is a fake static website, to practice us
 
 **Disclaimer: This project is for educational purposes only, as part of a course at the Université de Lille.**
 
-# Version française
+# 🇫🇷 Version française
 
 Faux site web d'un service de Samsung pour un projet universitaire.
 
