@@ -1,5 +1,5 @@
 # Samsung Mobility
-Fake website of a Samsung service for a university project.
+Fake website of a Samsung service for a university project. Developped by Lony MICHAUX, Florine LEFEBVRE, Simon LIETARD & Charlie DARQUES.
 
 # Project description
 
@@ -15,7 +15,7 @@ This site was created in teams of 4 and is a fake static website, to practice us
 
 # 🇫🇷 Version française
 
-Faux site web d'un service de Samsung pour un projet universitaire.
+Faux site web d'un service de Samsung pour un projet universitaire. Développé par Lony MICHAUX, Florine LEFEBVRE, Simon LIETARD & Charlie DARQUES.
 
 # Description du projet
 
