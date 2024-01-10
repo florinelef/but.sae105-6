@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/principal.css" />
+    <link rel="stylesheet" href="styles/contact.css" />
+    <title>Nous contacter • Samsung Mobility</title>
+  </head>
+  <body>
+    <header>
+      <a href="index.html"><img src="images/logo.svg" alt="logo" /></a>
+      <nav>
+        <a href="index.html">Accueil</a>
+        <a href="proposer_covoiturage.html">Je suis conducteur</a>
+        <a href="creneaux.html">Je suis passager</a>
+
+        <a class="button" href="contact.html">Nous contacter</a>
+      </nav>
+    </header>
+
+    <main>
+      <h1>Formulaire de contact</h1>
+      <section id="formEtImage">
+        <form action="message_envoye.html">
+          <div id="formulaire">
+            <div id="prenomNom">
+              <div>
+                <label for="nom">Votre nom</label>
+                <input type="text" id="nom" required />
+              </div>
+              <div>
+                <label for="prenom">Votre prénom</label>
+                <input type="text" id="prenom" required />
+              </div>
+            </div>
+            <div>
+              <label for="email">Votre adresse électronique de travail</label>
+              <input
+                id="email"
+                type="email"
+                placeholder="...@samsung.com"
+                required
+              />
+            </div>
+            <div>
+              <label for="message">Message</label>
+              <textarea id="message" required></textarea>
+            </div>
+            <button class="button colored">Envoyer le message</button>
+          </div>
+        </form>
+        <img
+        id="enveloppe"
+        src="images/contact/image1.svg"
+        alt="enveloppe postée"
+        />
+      </section>
+    </main>
+
+    <footer>
+      <img src="images/logo.svg" alt="logo" />
+      <a href="rgpd.html">RGPD & données personnelles</a>
+    </footer>
+  </body>
+</html>

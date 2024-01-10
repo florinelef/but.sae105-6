@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/principal.css" />
+    <link rel="stylesheet" href="styles/participer_covoiturage.css" />
+    <title>Participer à un covoiturage</title>
+  </head>
+  <body>
+    <header>
+      <a href="index.html"><img src="images/logo.svg" alt="logo" /></a>
+      <nav>
+        <a href="index.html">Accueil</a>
+        <a href="proposer_covoiturage.html">Je suis conducteur</a>
+        <a href="#">Je suis passager</a>
+
+        <a class="button" href="contact.html">Nous contacter</a>
+      </nav>
+    </header>
+
+    <main>
+      <h1>Participer à un co-voiturage avec Prénom NOM</h1>
+      <div>Je suis passager</div>
+
+      <div class="form-container">
+        <form action="participation.html">
+          <div>
+            <div>
+              <label for="input_name">Votre nom</label>
+              <input type="text" id="input_name" required />
+            </div>
+            <div>
+              <label for="input_firstname">Votre prénom</label>
+              <input type="text" id="input_firstname" required />
+            </div>
+          </div>
+          <div>
+            <div>
+              <label for="input_gender">Votre genre</label>
+              <select required id="input_gender">
+                <option value="" disabled selected>
+                  Sélectionner un genre
+                </option>
+                <option value="Homme">Homme</option>
+                <option value="Femme">Femme</option>
+                <option value="Non-binaire">Non-binaire</option>
+                <option value="Autre">Autre</option>
+              </select>
+            </div>
+            <div>
+              <label for="input_phone">Votre numéro de téléphone</label>
+              <input
+                type="tel"
+                required
+                pattern="([0-9]{2}[0-9]{2}[0-9]{2}[0-9]{2}[0-9]{2})|([0-9]{3}-([0-9]{3}|[0-9]{4})-[0-9]{4}|((\([0-9]{3}\) |[0-9]{3}-)[0-9]{3}-[0-9]{4}))"
+                maxlength="12"
+                placeholder="XX XX XX XX XX"
+              />
+            </div>
+          </div>
+          <button class="colored">Participer</button>
+        </form>
+        <img
+          src="images/participer/image1.svg"
+          alt="participer"
+          class="participer"
+        />
+      </div>
+    </main>
+
+    <footer>
+      <img src="images/logo.svg" alt="logo" />
+      <a href="rgpd.html">RGPD & données personnelles</a>
+    </footer>
+  </body>
+</html>

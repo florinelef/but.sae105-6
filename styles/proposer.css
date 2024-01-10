@@ -1,0 +1,30 @@
+main{
+    display: flex;
+	margin-top: 10%;
+	margin-bottom: auto;
+    align-items: center;
+	justify-content: center;
+    gap: 150px;
+}
+.proposer_covoiturage{
+	height: 550px;
+	width: 550px;
+}
+h1{
+	text-decoration: none;
+	font-weight: 300;
+    text-align: center;
+    margin-top: 30%; 
+}
+#voiture{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+/* 
+#voiture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    margin-top: 10%;
+} */

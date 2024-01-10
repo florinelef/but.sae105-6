@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/principal.css" />
+    <link rel="stylesheet" href="styles/proposer_covoiturage.css" />
+    <title>Proposer un co-voiturage • Samsung Mobility</title>
+  </head>
+  <body>
+    <header>
+      <a href="index.html"><img src="images/logo.svg" alt="logo" /></a>
+      <nav>
+        <a href="index.html">Accueil</a>
+        <a href="proposer_covoiturage.html">Je suis conducteur</a>
+        <a href="creneaux.html">Je suis passager</a>
+
+        <a class="button" href="contact.html">Nous contacter</a>
+      </nav>
+    </header>
+
+    <main>
+      <h1>Proposer un co-voiturage</h1>
+      <div>Je suis conducteur</div>
+
+      <form action="proposer.html">
+        <div>
+          <div>
+            <label for="input_name">Votre nom</label>
+            <input type="text" id="input_name" required />
+          </div>
+          <div>
+            <label for="input_firstname">Votre prénom</label>
+            <input type="text" id="input_firstname" required />
+          </div>
+        </div>
+        <div>
+          <div>
+            <label for="input_gender">Votre genre</label>
+            <select required id="input_gender">
+              <option value="" disabled selected>Sélectionner un genre</option>
+              <option value="Homme">Homme</option>
+              <option value="Femme">Femme</option>
+              <option value="Non-binaire">Non-binaire</option>
+              <option value="Autre">Autre</option>
+            </select>
+          </div>
+          <div>
+            <label for="input_phone">Votre numéro de téléphone</label>
+            <input
+              type="tel"
+              required
+              pattern="([0-9]{2}[0-9]{2}[0-9]{2}[0-9]{2}[0-9]{2})|([0-9]{3}-([0-9]{3}|[0-9]{4})-[0-9]{4}|((\([0-9]{3}\) |[0-9]{3}-)[0-9]{3}-[0-9]{4}))"
+              maxlength="12"
+            />
+          </div>
+        </div>
+
+        <div>
+          <div>
+            <label for="input_meeting-place">Lieu de rencontre</label>
+            <input
+              type="text"
+              id="input_meeting-place"
+              placeholder="Exemple : en face du bureau..."
+              required
+            />
+          </div>
+          <div>
+            <label for="input_destination">Destination</label>
+            <input type="text" id="id_destination" required />
+          </div>
+        </div>
+
+        <div>
+          <div>
+            <label for="input_date">Date</label>
+            <input type="datetime-local" required />
+          </div>
+
+          <div>
+            <label for="input_country">Pays</label>
+            <select id="input_country" required>
+              <option value="" disabled selected>Sélectionner un pays</option>
+              <option value="">France</option>
+              <option value="">États-Unis</option>
+              <option value="">Corée du Sud</option>
+            </select>
+          </div>
+        </div>
+
+        <button class="colored">Proposer</button>
+      </form>
+    </main>
+
+    <footer>
+      <img src="images/logo.svg" alt="logo" />
+      <a href="rgpd.html">RGPD & données personnelles</a>
+    </footer>
+  </body>
+</html>
